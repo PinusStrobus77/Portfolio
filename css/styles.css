@@ -11504,8 +11504,8 @@ footer.footer .social-link:hover {
 }
 .portfolio-item .caption {
   display: flex;
-  height: 100%;
-  width: 100%;
+  height: 450px;
+  width: 450px;
   background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
   top: 0;
@@ -11570,3 +11570,17 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+/* project section
+#madLibs{
+  background-image: url('https://www.perkins.org/wp-content/uploads/2022/06/Mad_Libs_logo.png');
+  background-size: 100%;
+}
+
+
+#aboutMe{
+  background-image: url('../assets/img/portfolio-1.jpg');
+  background-size: 100% cover;
+  background-repeat: no-repeat;
+}
+ */
