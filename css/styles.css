@@ -598,9 +598,9 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.img-fluider {
+  width: 650px;
+  height: 500px;
 }
 
 .img-thumbnail {
@@ -663,6 +663,12 @@ progress {
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
+  }
+}
+@media(max-width: 426px){
+  .img-fluider{
+    max-width: 100%;
+    height: auto;
   }
 }
 .row {
